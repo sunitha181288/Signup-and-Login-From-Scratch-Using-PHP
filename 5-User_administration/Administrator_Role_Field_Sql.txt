@@ -1,0 +1,4 @@
+/**
+ * Add administrator role column to users table
+ */
+ALTER TABLE  `users` ADD  `is_admin` BOOLEAN NOT NULL DEFAULT FALSE ;

@@ -1,0 +1,8 @@
+/**
+ * Add account activation columns to users table
+ */
+ALTER TABLE  `users` ADD  `activation_token` VARCHAR( 40 ) NULL DEFAULT NULL ,
+  ADD  `is_active` BOOLEAN NOT NULL DEFAULT FALSE ,
+  ADD UNIQUE (
+    `activation_token`
+  );

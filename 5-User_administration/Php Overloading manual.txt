@@ -1,0 +1,1 @@
+http://php.net/manual/language.oop5.overloading.php#object.get

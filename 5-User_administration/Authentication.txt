@@ -1,0 +1,1 @@
+http://book.cakephp.org/3.0/en/controllers/components/authentication.html
